@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../PROYECTO/css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../portal/css/estilos.css">
 
 	<title>creacion de un contador de visitas		
 		
@@ -35,52 +35,52 @@
 					
 					<?php
 	echo "La actividad en la página de INGLES son: ";
-	include("../PROYECTO/visitas1.txt");
+	include("../portal/visitas1.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de ELECTRONICA son: ";
-	include("../PROYECTO/visitas2.txt");
+	include("../portal/visitas2.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de CONTABILIDAD son: ";
-	include("../PROYECTO/visitas3.txt");
+	include("../portal/visitas3.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de DISEÑO GRAFICO son: ";
-	include("../PROYECTO/visitas4.txt");
+	include("../portal/visitas4.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de BELLEZA INTEGRAL son: ";
-	include("../PROYECTO/visitas5.txt");
+	include("../portal/visitas5.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de GASTRONOMIA son: ";
-	include("../PROYECTO/visitas6.txt");
+	include("../portal/visitas6.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de SASTRERIA Y CONFECCION TEXTIL son: ";
-	include("../PROYECTO/visitas7.txt");
+	include("../portal/visitas7.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de SECRETARIADO EJECUTIVO son: ";
-	include("../PROYECTO/visitas8.txt");
+	include("../portal/visitas8.txt");
 	echo "<hr>";
 	echo "<br>";
 	echo "La actividad en la página de SISTEMAS COMPUTACIONALES son: ";
-	include("../PROYECTO/visitas9.txt");
+	include("../portal/visitas9.txt");
 	echo "<hr>";
 	echo "<br>";
 	//grafico
 	echo "<hr size=8 color=ffffff>";
-	$archivo1="../PROYECTO/visitas1.txt";
-	$archivo2="../PROYECTO/visitas2.txt";
-	$archivo3="../PROYECTO/visitas3.txt";
-	$archivo4="../PROYECTO/visitas4.txt";
-	$archivo5="../PROYECTO/visitas5.txt";
-	$archivo6="../PROYECTO/visitas6.txt";
-	$archivo7="../PROYECTO/visitas7.txt";
-	$archivo8="../PROYECTO/visitas8.txt";
-	$archivo9="../PROYECTO/visitas9.txt";
+	$archivo1="../portal/visitas1.txt";
+	$archivo2="../portal/visitas2.txt";
+	$archivo3="../portal/visitas3.txt";
+	$archivo4="../portal/visitas4.txt";
+	$archivo5="../portal/visitas5.txt";
+	$archivo6="../portal/visitas6.txt";
+	$archivo7="../portal/visitas7.txt";
+	$archivo8="../portal/visitas8.txt";
+	$archivo9="../portal/visitas9.txt";
 
 	$abre1=fopen($archivo1, "r");
 	$abre2=fopen($archivo2, "r");
@@ -124,23 +124,23 @@
 	$por9=intval($por9,10);
 
 	echo "INGLES: <b>$total1</b>visitas     <b>--------------------------------------------------> $por1 %</b> ";
-	echo " <img height=15 width=$por1 src=../PROYECTO/img/ico.png><br> ";
+	echo " <img height=15 width=$por1 src=../portal/img/ico.png><br> ";
 	echo "ELECTRONICA: <b>$total2</b> visitas  <b>----------------------------------------> $por2 %</b>";
-	echo "<img height=15 width=$por2 src=../PROYECTO/img/ico.png><br>";
+	echo "<img height=15 width=$por2 src=../portal/img/ico.png><br>";
 	echo "CONTABILIDAD: <b>$total3</b> visitas  <b>--------------------------------------> $por3 %</b>";
-	echo " <img height=15 width=$por3 src=../PROYECTO/img/ico.png><br>";
+	echo " <img height=15 width=$por3 src=../portal/img/ico.png><br>";
 	echo "DISEÑO GRAFICO: <b>$total4</b> visitas <b>-----------------------------------> $por4 %</b>";
-	echo "<img height=15 width=$por4 src=../PROYECTO/img/ico.png><br>";
+	echo "<img height=15 width=$por4 src=../portal/img/ico.png><br>";
 	echo "BELLEZA INTEGRAL: <b>$total5</b> visitas <b>---------------------------------> $por5 %</b>";
-	echo "<img height=15 width=$por5 src=../PROYECTO/img/ico.png><br>";
+	echo "<img height=15 width=$por5 src=../portal/img/ico.png><br>";
 	echo "GASTRONOMIA: <b>$total6</b> visitas - <b>------------------------------------> $por6 %</b>";
-	echo "<img height=15 width=$por6 src=../PROYECTO/img/ico.png><br>";
+	echo "<img height=15 width=$por6 src=../portal/img/ico.png><br>";
 	echo "CONFECCION TEXTIL: <b>$total7</b> visitas <b>------------------------------> $por7 %</b>";
-	echo "<img height=15 width=$por7 src=../PROYECTO/img/ico.png><br>";
+	echo "<img height=15 width=$por7 src=../portal/img/ico.png><br>";
 	echo "SECRETARIADO EJECUTIVO: <b>$total8</b> visitas <b>----------------------> $por8 %</b>";
-	echo "<img height=15 width=$por8 src=../PROYECTO/img/ico.png><br>";
+	echo "<img height=15 width=$por8 src=../portal/img/ico.png><br>";
 	echo "SISTEMAS COMPUTACIONALES: <b>$total9</b> visitas<b>------------------> $por9 %</b>";
-	echo "<img height=15 width=$por9 src=../PROYECTO/img/ico.png><br>";
+	echo "<img height=15 width=$por9 src=../portal/img/ico.png><br>";
 
 	echo"<BR>";
 
@@ -148,7 +148,7 @@
 
 	echo "<hr size=2 color=ffffff width=30% align=letf>";
 	echo "total visitas : <b>$visitas</b> de un <b>$todo % -----------------------------------> </b>";
-	echo "<img height=15 width=$todo src=../PROYECTO/img/ico.png>";
+	echo "<img height=15 width=$todo src=../portal/img/ico.png>";
 	?>
                     </tr>
                   </thead>

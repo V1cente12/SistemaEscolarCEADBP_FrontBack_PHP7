@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css" />
-    <link href="PROYECTO/css/style.css" rel="stylesheet" /><script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script><script src="js/modernizr.js"></script><script src="js/bootstrap.min.js"></script><script src="js/main.js"></script>
+    <link href="portal/css/style.css" rel="stylesheet" /><script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script><script src="js/modernizr.js"></script><script src="js/bootstrap.min.js"></script><script src="js/main.js"></script>
 
    
     
@@ -31,10 +31,10 @@
     </div>
     <nav class="full-reset navigation">
     <ul class="full-reset list-unstyled">
-        <li><a href="PROYECTO/index.html">PRINCIPAL</a></li>
-        <li><a href="PROYECTO/institucion.html">CEA</a></li>
-        <li><a href="PROYECTO/bachilleratos.html">ESPECIALIDADES</a></li>
-        <li><a href="PROYECTO/galeria.html">ASISTENCIA SALESIANA</a></li>
+        <li><a href="portal/index.html">PRINCIPAL</a></li>
+        <li><a href="portal/institucion.html">CEA</a></li>
+        <li><a href="portal/bachilleratos.html">ESPECIALIDADES</a></li>
+        <li><a href="portal/galeria.html">ASISTENCIA SALESIANA</a></li>
         <li><a href="../../moodle/login/index.php">AULA VIRTUAL</a></li>
         <li><a href="#">LOGIN</a></li>
     </ul>
