@@ -1,0 +1,8 @@
+body {
+	background: lightblue ;
+	color: black;
+	font-family: "Encode Sans";
+  font-stretch: normal;
+  src: url("encode-sans-v2-latin-regular.woff") format("woff");
+	text-align: left;
+}
